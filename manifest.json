@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name":         "PinyinTable",
+  "version":      "1.0",
+  "homepage_url": "https://github.com/hopanghsu/PinyingTable",
+  "description":  "Shows Pinyin table in a popup window.",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon":  "icons/pin.gif",
+    "default_title": "Pinying Table",
+    "default_popup": "popup/pinyin_table.html"
+  }
+}
+
